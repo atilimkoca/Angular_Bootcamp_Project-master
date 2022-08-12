@@ -1,27 +1,28 @@
-# Project
+This is My Angular Bootcamp Final Project.
+ 
+ Before running the project, you need to download the necessary modules with the "npm install" command.
+ 
+ To activate the dataset, you need to enter the command "northwind" on the command line
+ 
+ 
+ To run the project, you need to enter the command "ng serve --open".
+then my project will be running
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
+Login Page
+![login](https://user-images.githubusercontent.com/93714072/184371161-7a8beddf-b676-4832-8619-18a9941ab54e.PNG)
 
-## Development server
+Register Page![Register](https://user-images.githubusercontent.com/93714072/184371347-b1516b4d-db45-4d5f-b5ee-ff7a013e598c.PNG)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+İntro Page
+![Index Page](https://user-images.githubusercontent.com/93714072/184371772-ca94b1ee-cc39-456f-a4f7-22b813a14371.PNG)
 
-## Code scaffolding
+Product Page
+![products](https://user-images.githubusercontent.com/93714072/184372069-5c7b54fc-c058-4991-b353-05c768b37293.PNG)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Categories Page
+![Categories](https://user-images.githubusercontent.com/93714072/184372355-f6090bc6-0fcc-45ce-a158-5dbf5a12bed5.PNG)
 
-## Build
+Employees Page
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Contact Us Page
+![contactus](https://user-images.githubusercontent.com/93714072/184372483-0d923cb4-08fb-47bd-8801-c6ccd71c078c.PNG)
