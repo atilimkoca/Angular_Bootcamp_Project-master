@@ -1,0 +1,74 @@
+<div class="row">
+  
+</div>
+<header class="navbar navbar-dark  bg-dark flex-md-nowrap p-0 shadow">
+<div class="btn-group nav-link pl-3 ml-auto"  role="group" id="view" >
+          
+  <button class="btn btn-white" type="button"(click)="language(1)" id="lan1"
+                [ngClass]="{'btn-primary active': lang === 1}" >
+                <img src="data:image/jpeg;base64,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" alt="" style="width:20px; background-color: white;" >
+                
+                
+  </button>
+  <button class="btn btn-white" type="button"  (click)="language(2)" id="lan2" style="background-color: white;"
+                [ngClass]="{'btn-primary active': lang === 2}" >
+                
+                <img src="https://icon-library.com/images/icon-english/icon-english-7.jpg" alt="" style="width: 20px;">
+  </button>
+  
+ </div>
+</header>
+<div *ngIf="lang===1">
+  <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+    <!-- <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6" href="#">Company name</a> -->
+    <img src="https://www.kariyer.net/kariyer-rehberi/wp-content/uploads/2021/05/logo.png" alt="" class="d-inline-block align-top " width="150" height="30">
+    
+      
+    <a *ngIf="isLoggedIn()==true" class="nav-link px-3" class="nav-link px-3"style="color: white;"routerLink="index">İndeks</a>
+    <a *ngIf="isLoggedIn()==true" class="nav-link px-3"class="nav-link px-4"routerLink="products"style="color: white;" href="#"routerLink="products" style="color: white;">Ürünler</a>
+    <a *ngIf="isLoggedIn()==true" class="nav-link px-3"class="nav-link px-4"routerLink="categories"style="color: white;" href="#"routerLink="categories">Kategoriler</a>
+    <a *ngIf="isLoggedIn()==true" class="nav-link px-3"class="nav-link px-4" routerLink="employees"style="color: white;" href="#" routerLink="employees">Çalışanlar</a>
+    <a *ngIf="isLoggedIn()==true" class="nav-link px-3"class="nav-link px-4" routerLink="contactus" style="color: white;"href="#" routerLink="contactus">İletişim</a>
+    
+        
+    <div class="navbar-nav">
+      
+      <div class="nav-item text-nowrap">
+        
+          
+        
+        <a *ngIf="isLoggedIn()==true" (click)="logOut()"  class="nav-link px-3" >Çıkış</a>
+        
+        
+      </div>
+    </div>
+  </header>
+  
+</div>
+<div *ngIf="lang===2">
+  <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+    <!-- <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6" href="#">Company name</a> -->
+    <img src="https://www.kariyer.net/kariyer-rehberi/wp-content/uploads/2021/05/logo.png" alt="" class="d-inline-block align-top " width="150" height="30">
+    
+      
+    <a *ngIf="isLoggedIn()==true" class="nav-link px-3" class="nav-link px-3"style="color: white;"routerLink="index">Index</a>
+    <a *ngIf="isLoggedIn()==true" class="nav-link px-3"class="nav-link px-4"routerLink="products"style="color: white;" href="#"routerLink="products" style="color: white;">Product</a>
+    <a *ngIf="isLoggedIn()==true" class="nav-link px-3"class="nav-link px-4"routerLink="categories"style="color: white;" href="#"routerLink="categories">Categories</a>
+    <a *ngIf="isLoggedIn()==true" class="nav-link px-3"class="nav-link px-4" routerLink="employees"style="color: white;" href="#" routerLink="employees">Employees</a>
+    <a *ngIf="isLoggedIn()==true" class="nav-link px-3"class="nav-link px-4" routerLink="contactus" style="color: white;"href="#" routerLink="contactus">Contact Us</a>
+    
+    
+        
+    <div class="navbar-nav">
+      
+      <div class="nav-item text-nowrap">
+        
+          
+        
+        <a *ngIf="isLoggedIn()==true" (click)="logOut()"  class="nav-link px-3" >LogOut</a>
+        
+        
+      </div>
+    </div>
+  </header>
+</div>
